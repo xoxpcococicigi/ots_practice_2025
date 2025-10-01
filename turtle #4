@@ -1,0 +1,13 @@
+import turtle
+
+turtle.speed(0)
+turtle.pensize(2)
+
+length = 10
+turns = 9
+for i in range(turns):
+    turtle.forward(length)
+    turtle.left(90)
+    length += 5
+
+turtle.done()
